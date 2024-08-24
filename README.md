@@ -21,10 +21,10 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/weather-forecast-app.git
+   git clone https://github.com/shubha113/task-3-weather-forecast-dashboard.git
 
 2. Navigate to the project directory:
-   cd weather-forecast-app
+   cd weather-forecast-dashboard
    
 3. Install the dependencies:
    npm install
