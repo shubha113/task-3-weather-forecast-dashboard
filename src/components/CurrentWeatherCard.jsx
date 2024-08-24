@@ -14,11 +14,11 @@ const CurrentWeatherCard = ({ weatherData, selectedDay, unit }) => {
         <h1 className="city-name">{weatherData.name}</h1> {/* To show city name */}
         <img
           className="weather-icon"
-          src={`http://openweathermap.org/img/wn/${dataToDisplay.weather[0].icon}@2x.png`}
+          src={`http://openweathermap.org/img/wn/${dataToDisplay.weather[0].icon}@2x.png`} {/* To show current weather icon */}
           alt="Weather Icon"
         />
       </div>
-      <h1 className="temperature">{dataToDisplay.main.temp}{tempUnit}</h1>
+      <h1 className="temperature">{dataToDisplay.main.temp}{tempUnit}</h1> {/* To show current temperature */}
       <div className="weather-details">
         <div className="detail-item">
           <p className='paragraph'>Min/Max Temp:</p>
